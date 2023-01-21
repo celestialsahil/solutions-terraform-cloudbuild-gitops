@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "prj-shared-cicd-375013-tfstate"
+    bucket = "prj-shared-cicd-375013-poc-tfstate"
     prefix = "env/dev"
   }
 }
